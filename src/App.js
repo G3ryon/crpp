@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/iframe-has-title */
 import './App.css';
 
