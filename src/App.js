@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import DocViewer, {DocViewerRenderers} from "@cyntler/react-doc-viewer";
+
 function App() {
   const docs = [ // Remote file
     { uri: require("./crpp.pptx") }, // Local File
