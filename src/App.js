@@ -1,23 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-
+import DocViewer, {DocViewerRenderers} from "@cyntler/react-doc-viewer";
 function App() {
+  const docs = [ // Remote file
+    { uri: require("./crpp.pptx") }, // Local File
+  ];
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <iframe src="https://onedrive.live.com/embed?resid=C41F082B0864B6EB%2192721&amp;authkey=%21AHORxyWttWPCJ48&amp;em=2&amp;wdAr=1.7777777777777777" width="100% !important" height="100vh !important" frameborder="0">Ceci est un  <a target="_blank" href="https://office.com">Microsoft Office</a> incorporé, avec <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
     </div>
   );
 }
